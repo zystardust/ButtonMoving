@@ -47,11 +47,11 @@
     
 }
 -(void)move {
-    //    [UIView animateWithDuration:1 animations:^{
+    
     _circleBtn.center = CGPointMake(self.view.center.x - 100 * sin(M_PI_4 / 90 * i), self.view.center.y - 100 + 100 * cos(M_PI_4 / 90 * i));
-    //    } completion:^(BOOL finished) {
+    
     i++;
-    //    }];
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
